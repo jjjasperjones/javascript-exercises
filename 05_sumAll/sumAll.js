@@ -1,11 +1,9 @@
 const sumAll = function(firstNumber, secondNumber) {
     let numberAdd = 0
-    if (firstNumber<0 ||
-       secondNumber<0){
+    if (firstNumber<0 || secondNumber<0){
             return 'ERROR';
     }
-     if (typeof firstNumber !== `number` || 
-        typeof secondNumber !== `number`) {
+     if (typeof firstNumber !== `number` || typeof secondNumber !== `number`) {
             return 'ERROR';
     }
     if (firstNumber<secondNumber){
